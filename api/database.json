@@ -1,0 +1,31 @@
+{
+    "plumbers": [
+        {
+            "id": 1,
+            "name": "Maude",
+            "hours": 1215.00,
+        },{
+            "id": 1,
+            "name": "Merle",
+            "hours": 1215.00,
+        }         
+        
+
+    ],
+    "completions": [ 
+        {
+        "id": 1,
+        "orderId": 1,
+        "serviceId": 1
+    }
+],
+    "requests": [
+        {
+            "id": 1,
+            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
+            "address": "34445 Bianka Ports",
+            "budget": 400,
+            "neededBy": "2021-08-27"
+        }
+    ]
+}
