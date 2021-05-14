@@ -1,24 +1,78 @@
 {
+    "servicesTypes": [
+        {
+            "id": 1,
+            "name": "Vinity"
+        },
+        {
+            "id": 2,
+            "name": "Sink"
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "serviceTypeId": 1,
+            "serviceName": "Repair",
+            "price": 215.00
+        },
+        {
+            "id": 2,
+            "serviceTypeId": 2,
+            "serviceName": "New Install",
+            "price": 115.99
+        }
+    ],
+    "servicesOrders": [
+        {
+            "id": 1,
+            "serviceId": 1,
+            "orderId": 1
+        },
+        {
+            "id": 2,
+            "serviceId": 2,
+            "orderId": 2
+        }
+    ],
+    "customer": [
+        {
+            "id": 1,
+            "name": "Mike",
+            "email": "mike@wizowski.com",
+            "phoneNumber": "615-555-2122"
+        }
+    ],
     "plumbers": [
         {
             "id": 1,
             "name": "Maude",
-            "hours": 1215.00,
-        },{
-            "id": 1,
-            "name": "Merle",
-            "hours": 1215.00,
-        }         
-        
-
-    ],
-    "completions": [ 
+            "hours": 1215.00
+        },
         {
-        "id": 1,
-        "orderId": 1,
-        "serviceId": 1
-    }
-],
+            "id": 2,
+            "name": "Merle",
+            "hours": 1215.00
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "serviceType": "Home Renovation",
+            "repairDate": "2022-02-23",
+            "timeNeeded": "0",
+            "orderPlaced": "2021-05-13",
+            "customerId": 1,
+            "isComplete": false
+        }
+    ],
+    "completions": [
+        {
+            "id": 1,
+            "orderId": 1,
+            "serviceId": 1
+        }
+    ],
     "requests": [
         {
             "id": 1,
